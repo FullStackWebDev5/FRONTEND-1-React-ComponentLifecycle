@@ -62,7 +62,7 @@ export default App
         - Whenever the component re-renders (due to the change in it's state or prop)
       - Unmounting Phase (Death)
         - When the component is removed from the DOM
-    - Methods
+    - Methods (Class)
       - Mounting Phase: 
         - componentDidMount(): (Child's first cry)
           - This method is invoked right after the component is mounted
@@ -75,6 +75,7 @@ export default App
         - componentWillUnmount(): (Last words)
           This method is invoked right before the component is unmounted
           - Use cases: Clear/reset form/state data, etc.
+       - Methods (Function)
 
 
   # Additional notes:
